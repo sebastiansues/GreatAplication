@@ -1,0 +1,20 @@
+Codigos de respuesta:
+	200 : Conectado correctamente
+	201 : Usario creado correctamente
+	202	: El usuario ya existe
+	203 : El usuario no existe
+	204 : Usuario o password incorrectos
+	205 : Inicio de sesion
+	206: Usuario actualizado con exito
+
+	400 : Error al conectar
+	401 : Error intentando crear usuario
+	402 : Faltan datos para ejecutar la accion solicitada
+
+
+Usos de las funcionalidades:
+
+	comprobar_conexion()
+	registrar_usuario(nombres,apellidos,usuario,password)
+	verificar_usuario(usuario)
+	login(usuario,password)
